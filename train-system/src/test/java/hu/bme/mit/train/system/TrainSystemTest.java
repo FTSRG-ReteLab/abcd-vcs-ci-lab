@@ -51,7 +51,7 @@ public class TrainSystemTest {
 	}
 	@Test
 	public void TestTrainSystemName() {
-		Assert.assertNotNll(controller);
+		Assert.assertNotNull(controller);
 	}
 
 	
