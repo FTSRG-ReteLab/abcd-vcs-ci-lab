@@ -54,5 +54,13 @@ public class TrainSystemTest {
 		Assert.assertNotNull(controller);
 	}
 
+	@Test
+	public void table() {
+
+		Tacho t= new Tacho();
+		t.testsetup();
+		Assert.assertEquals(1,t.table.size());
+	}
+
 	
 }
