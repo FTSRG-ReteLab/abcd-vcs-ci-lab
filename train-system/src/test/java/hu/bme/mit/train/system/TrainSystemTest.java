@@ -51,8 +51,7 @@ public class TrainSystemTest {
 	}
 	@Test
 	public void TestTrainSystemName() {
-		double v = controller.getReferenceSpeed();
-		Assert.Greater(v,-1);
+		Assert.assertNotNll(controller);
 	}
 
 	
