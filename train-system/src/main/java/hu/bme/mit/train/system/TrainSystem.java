@@ -25,4 +25,8 @@ public class TrainSystem {
 		return user;
 	}
 
+	public String GetTrainSystemInfo() {
+		return (controller.toString() + sensor.toString() + user.toString());
+	}
+
 }
